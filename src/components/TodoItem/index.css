@@ -1,0 +1,20 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 20px;
+}
+.delete-btn {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+  cursor: pointer;
+  outline: none;
+}
